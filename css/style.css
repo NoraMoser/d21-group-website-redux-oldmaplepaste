@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 0 1rem 0;
 }
 .brand-name{
     margin: 0;
@@ -35,27 +35,34 @@ body {
 /*Navbar
 ==================================*/
 
+.navbar {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  z-index: 1;
+}
+
 ul.navbar {
     list-style-type: none;
-    margin-bottom: 4rem;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #731417;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
 ul.navbar li {
     display: inline;
     float: left;
+    width:24%;
+    margin: .25em;
     text-align: center;
 }
 
 ul.navbar li a {
   display: block;
-  padding: 3rem 4rem;
+  padding: 0 1rem;
   font-size: 2.5rem;
   
 }
