@@ -24,3 +24,14 @@ img {
 .content-description {
 	margin-top: 10%;
 }
+
+.mySlides {
+	margin: 0 auto;
+	height: 40%;
+	width: 40%;
+}
+
+.w3-button {
+	margin: 0 auto;
+	text-align: center;
+}
