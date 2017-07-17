@@ -160,7 +160,7 @@ input[type=Number], select {
 }
 
 .content-description {
-    font-size: 3rem;
+    /*font-size: 3rem;*/
     font-weight: 100;
 }
 
