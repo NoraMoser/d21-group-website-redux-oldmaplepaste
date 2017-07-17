@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 0 1rem 0;
 }
 .brand-name{
     margin: 0;
@@ -34,7 +34,15 @@ body {
 
 /*Navbar
 ==================================*/
-ul {
+
+.navbar {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  z-index: 1;
+}
+
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,24 +50,23 @@ ul {
     background-color: #731417;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
-
-ul.navbar {
-    margin-bottom: 4rem;
-}
-
-/*li {
-    float: left;
-}*/
-
-li {
+ul.navbar li {
     display: inline;
-    font-size: 2.5rem;
+    float: left;
+    width:24%;
+    margin: .25em;
     text-align: center;
-    padding: 3rem 4rem;
 }
+
+ul.navbar li a {
+  display: block;
+  padding: 0 1rem;
+  font-size: 2.5rem;
+  
+}
+
 
 
 a:link {
@@ -92,9 +99,8 @@ h2 {
 }
 
 .ourinformation {
-    display: inline-block;
     text-align: center;
-    margin: 5% 40%;
+    margin: 5% 0%;
     font-size: 30px;
     color: #B26838;
 }
@@ -285,7 +291,7 @@ section, p, h4 {
     justify-content: center;
     align-items: center;
     height: 8rem;
-    margin-top: 2rem;
+    margin-top: ;: 2rem;
 }
 
 .footer-brand {
