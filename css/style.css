@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700');
+
+/*Reset page
+=======================================*/
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Brand name
+============================================*/
+.brand-name-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.brand-name{
+    margin: 0;
+    color: #444;
+    font-weight: lighter;
+    flex: auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+/*Navbar
+==================================*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CC9571;
+}
+
+ul.navbar {
+    margin-bottom: 2rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 3rem;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+
+    background-color: #41FF2B;
+}
+
+/*Contact Page
+===============================================*/
+
+h2 {
+    text-align: center;
+    color: #57B24D;
+    font-size: 35px;
+    margin: 4%;
+}
+
+.ourinformation {
+    display: inline-block;
+    text-align: center;
+    margin: 5% 40%;
+    font-size: 30px;
+    color: #B26838;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 2px solid #B26838;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    color: #B26838;
+}
+
+input[type=Number], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 2px solid #B26838;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    color: #B26838;
+}
+
+.contactform {
+    text-align: center;
+    color: #B26838;
+
+    /* background-color: #A26B47; */
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #B26838;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+/*Main content
+====================================================*/
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    margin: 2rem 0;
+}
+.image-container {
+    flex: auto;
+    width: 100%
+}
+
+.main-image {
+    width: 100%;
+}
+
+.content-description {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+
+/* Cards
+================================ */
+.container {
+  margin: .5em .5em;
+  padding: 1em;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+article {
+  float: left;
+  margin: 1em;
+}
+.card {
+  border: 1px solid lightgray;
+  box-shadow: 0rem 1rem 3rem 0.005rem #9f9f9f;
+  border-radius: .5em;
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  width: 30%; 
+}
+
+.card-header {
+  border: 1px dotted lightgray;
+  border-top-right-radius: .5em;
+  text-align: center;
+}
+
+.card-header h2 {
+    font-weight: lighter;
+}
+
+.card-img {
+  height: 125px;
+  margin: .5em auto;
+  width: 125px;
+}
+
+.card-img img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-description {
+  margin: .5em;
+  text-align: justify;
+}
+
+.available {
+  background-color: #CC9571;
+  color: #fff;
+}
+
+.available > p {
+  padding: 3px 5px;
+}
+
+/*Specifications Section*/
+/*Clearing margin*/
+section, p, h4 {
+  margin: 0;
+}
+.specifications {
+  margin: .5em;
+}
+.specifications > h4 {
+  font-size: 1em;
+  font-weight: lighter;
+}
+.specifications > p {
+  font-size: .8em;
+  font-weight: bold;
+  margin-left: 1em;
+}
+.specifications-footer > p {
+  font-size: smaller;
+  font-weight: lighter;
+  margin-left: .5em;
+}
+
+/*Pricing Section*/
+.pricing {
+  margin-left: .5em;
+  margin-bottom: .5em;
+  display: flex;
+  display: -webkit-flex;
+}
+.pricing > h3{
+  margin-left: .5em;
+  font-weight: bold;
+}
+.pricing > p {
+  font-size: .8em;
+  font-weight: lighter;
+  margin-left: 1em;
+}
+
+.price-content {
+    align-self: flex-end;
+}
+
+
+
+/*Footer
+=================================*/
+.footer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #CC9571;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+.footer-brand {
+    font-size: 2rem;
+    color: #fff;   
+}
+
+/* About page
+==================================*/
+.about-content {
+    font-size: 2rem;
+    font-weight: 100;
+}
