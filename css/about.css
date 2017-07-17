@@ -15,14 +15,14 @@ article {
 	margin-bottom: 19px;
 }
 
-.card {
+.header {
 	border: 1px lightgray dotted;
 	text-align: center;
 }
 
 .description {
-	text-align: justify;
-	text-justify: inter-word;
+	/*text-align: justify;*/
+	/*text-justify: inter-word;*/
 	font-size: 16px;
 }
 
