@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700');
 
 /*Reset page
 =======================================*/
@@ -9,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*Brand name
@@ -40,30 +39,46 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #CC9571;
+    background-color: #731417;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 }
 
 ul.navbar {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
+
+/*li {
+    float: left;
+}*/
 
 li {
-    float: left;
+    display: inline;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 3rem 4rem;
 }
 
-li a {
-    display: block;
-    color: #fff;
-    font-size: 2rem;
-    text-align: center;
-    padding: 2rem 3rem;
+
+a:link {
     text-decoration: none;
+    color: #EAB71E;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #C1D059;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
+   background-color: #C34F00;
+}
 
-    background-color: #41FF2B;
+li a:active {
+    background-color: #C34F00;
 }
 
 /*Contact Page
@@ -101,16 +116,16 @@ input[type=Number], select {
     padding: 12px 20px;
     margin: 8px 8px;
     display: inline-block;
-    border: 2px solid #B26838;
+    border: 2px solid #EAB71E;
     border-radius: 4px;
     display: block;
     margin: auto;
-    color: #B26838;
+    color: #EAB71E;
 }
 
 .contactform {
     text-align: center;
-    color: #B26838;
+    color: #EAB71E;
 
     /* background-color: #A26B47; */
 }
@@ -118,7 +133,7 @@ input[type=Number], select {
 .btn {
     padding: 1rem;
     border-radius: 0.3rem;
-    background-color: #B26838;
+    background-color: #EAB71E;
     color: #fff;
     font-size: 1.25rem;
 }
@@ -167,7 +182,7 @@ article {
 }
 .card {
   border: 1px solid lightgray;
-  box-shadow: 0rem 1rem 3rem 0.005rem #9f9f9f;
+  box-shadow: 0rem 1rem 3rem 0.005rem #731417;
   border-radius: .5em;
   position: relative;
   display: flex;
@@ -265,7 +280,7 @@ section, p, h4 {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    background-color: #CC9571;
+    background-color: #EAB71E;
     justify-content: center;
     align-items: center;
     height: 8rem;
