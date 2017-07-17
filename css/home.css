@@ -35,3 +35,10 @@ img {
 	margin: 0 auto;
 	text-align: center;
 }
+
+.clay {
+	display: inline-block;
+	font-size: 7px;
+	border: 1px;
+	display: flex;
+}
