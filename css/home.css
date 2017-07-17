@@ -1,3 +1,15 @@
-h1 {
-	margin-top: 20%;
+.brand-name-container {
+	display: inline;
+	font-size: 40px;
+}
+
+.content {
+	font-size: 25px;
+}
+
+img {
+	height: 15%;
+	width: 15%;
+	float: center;
+	margin-top: 10%;
 }
