@@ -1,59 +1,54 @@
 let products = [
 	{
-		name: "Glasses1",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses0.jpg"
+		name: "product1",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "8.99",
+		url: "./images/maple0.jpg"
 	},
 	{
-		name: "Glasses2",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses1.jpg"
+		name: "product2",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "10.00",
+		url: "./images/maple1.jpg"
 	},
 	{
-		name: "Glasses3",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses2.jpg"
+		name: "product3",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "2Mil",
+		url: "./images/maple2.jpg"
 	},
 	{
-		name: "Glasses4",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses0.jpg"
+		name: "product4",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "4.99",
+		url: "./images/maple3.jpg"
 	},
 	{
-		name: "Glasses5",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses1.jpg"
+		name: "product5",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "7.25",
+		url: "./images/maple1.jpg"
 	},
 	{
-		name: "Glasses6",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses2.jpg"
+		name: "product6",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "10.00",
+		url: "./images/maple6.jpg"
 	},
 	{
-		name: "Glasses7",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses0.jpg"
+		name: "product7",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "12.99",
+		url: "./images/maple4.jpg"
 
 	},
 	{
-		name: "Glasses8",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses1.jpg"
+		name: "product8",
+		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		price: "10.00",
+		url: "./images/maple8.jpg"
 	},
-	{
-		name: "Glasses9",
-		description: "The Elliot is a modern take on the iconic 1950’s Browline style. Crafted from premium acetate and sporting sleek arms, silver accents and a retro monel bridge, this frame exudes a classic cool.",
-		price: "12.88",
-		url: "./images/glasses2.jpg"
-	}
+	
 ];
 
 let parentContainer = document.querySelector('.container');
@@ -67,7 +62,7 @@ products.forEach(function (item) {
 		</header>
                 <section>
                     <div class="card-img">
-                        <img src="${item.url}" alt="Spectacle image">
+                        <img src="${item.url}" alt="malplesyrup">
                     </div>
                     <div class="card-description">
                         <p>

@@ -44,7 +44,7 @@ ul {
     top: 0;
     width: 100%;
 }
-}
+
 
 ul.navbar {
     margin-bottom: 4rem;
@@ -182,7 +182,7 @@ article {
 }
 .card {
   border: 1px solid lightgray;
-  box-shadow: 0rem 1rem 3rem 0.005rem #731417;
+  box-shadow: 0rem 2rem 2rem 00.005rem black;
   border-radius: .5em;
   position: relative;
   display: flex;
