@@ -174,7 +174,7 @@ input[type=Number], select {
 /* Cards
 ================================ */
 .container {
-  margin: .5em .5em;
+  margin: .5em;
   padding: 1em;
   box-sizing: border-box;
   display: flex;
@@ -190,11 +190,11 @@ article {
   border: 1px solid lightgray;
   box-shadow: 0rem 2rem 2rem 00.005rem black;
   border-radius: .5em;
-  position: relative;
+  /*position: relative;*/
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
-  width: 30%; 
+  width: 25%; 
 }
 
 .card-header {
@@ -222,6 +222,7 @@ article {
 .card-description {
   margin: .5em;
   text-align: justify;
+  font-size: 16px;
 }
 
 .available {
