@@ -6,7 +6,6 @@ body, h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -35,39 +34,28 @@ body {
 /*Navbar
 ==================================*/
 
-.navbar {
-  clear: both;
-  display: inline-block;
-  width: 100%;
-  z-index: 1;
-}
-
 ul.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #731417;
     position: fixed;
     top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul.navbar li {
-    display: inline;
-    float: left;
-    width:24%;
-    margin: .25em;
-    text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 2.5rem;
+    }
 
 ul.navbar li a {
-  display: block;
-  padding: 0 1rem;
-  font-size: 2.5rem;
-  
-}
-
-
+    align-items: space-around;
+    }
 
 a:link {
     text-decoration: none;
@@ -132,8 +120,7 @@ input[type=Number], select {
 .contactform {
     text-align: center;
     color: #EAB71E;
-
-    /* background-color: #A26B47; */
+    padding-bottom: 10px;
 }
 
 .btn {
@@ -279,7 +266,6 @@ section, p, h4 {
 }
 
 
-
 /*Footer
 =================================*/
 .footer {
@@ -300,9 +286,11 @@ section, p, h4 {
     color: #fff;   
 }
 
+
 /* About page
 ==================================*/
 .about-content {
+    text-align: center;
     font-size: 2rem;
     font-weight: 100;
 }
