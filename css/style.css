@@ -137,7 +137,8 @@ input[type=Number], select {
 }
 
 .btn {
-    padding: 1rem auto 4rem auto;
+    margin-bottom: 2%;
+    padding: 2% auto 4%;
     border-radius: 0.3rem;
     background-color: #EAB71E;
     color: #fff;

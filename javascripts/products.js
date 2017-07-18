@@ -1,50 +1,50 @@
 let products = [
 	{
-		name: "product1",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Organic Maple Syrup<br><br>",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "8.99",
 		url: "./images/maple0.jpg"
 	},
 	{
-		name: "product2",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Maple Joe<br><br><br><br>",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "10.00",
 		url: "./images/maple1.jpg"
 	},
 	{
-		name: "product3",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Great Northern Maple Syrup",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "2Mil",
 		url: "./images/maple2.jpg"
 	},
 	{
-		name: "product4",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Pure Maple Syrup",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "4.99",
 		url: "./images/maple3.jpg"
 	},
 	{
-		name: "product5",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Maple Joe 2.0 Maple Syrup",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "7.25",
 		url: "./images/maple1.jpg"
 	},
 	{
-		name: "product6",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Kallas Maple Syrup",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "10.00",
 		url: "./images/maple6.jpg"
 	},
 	{
-		name: "product7",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "The Most Canadian of all Maple Syrups",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "12.99",
 		url: "./images/maple4.jpg"
 
 	},
 	{
-		name: "product8",
-		description: "maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
+		name: "Hidden Springs Maple Syrup<br><br>",
+		description: "Maple syrup is the sap from the xylem of sugar maple or various other species of maple trees.",
 		price: "10.00",
 		url: "./images/maple8.jpg"
 	},
