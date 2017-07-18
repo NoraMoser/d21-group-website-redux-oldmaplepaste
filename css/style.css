@@ -7,7 +7,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Brand name
@@ -124,7 +124,8 @@ input[type=Number], select {
 }
 
 .btn {
-    padding: 1rem;
+    margin-bottom: 2%;
+    padding: 2% auto 4%;
     border-radius: 0.3rem;
     background-color: #EAB71E;
     color: #fff;
@@ -293,4 +294,6 @@ section, p, h4 {
     text-align: center;
     font-size: 2rem;
     font-weight: 100;
+    text-align: center;
+    padding: 10px auto;
 }

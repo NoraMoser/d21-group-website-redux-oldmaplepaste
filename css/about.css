@@ -24,6 +24,8 @@ article {
 	/*text-align: justify;*/
 	/*text-justify: inter-word;*/
 	font-size: 16px;
+	text-align: center;
+	padding: 2% auto;
 }
 
 .size {
